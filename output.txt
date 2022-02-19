@@ -1,0 +1,154 @@
+By Jacob Hitzges
+
+
+Testing check solvability method
+True
+
+
+Testing Action Method
+['UP', 'LEFT']
+
+
+Testing Result Method
+(1, 5, 2, 3, 4, 6, 8, 0, 7)
+(1, 5, 2, 3, 4, 6, 8, 0, 7)
+(1, 0, 2, 3, 5, 4, 8, 6, 7)
+(1, 5, 2, 3, 6, 4, 8, 0, 7)
+
+
+Testing for h
+6
+Testing for h2
+8
+
+
+Start State:  (1, 5, 2, 3, 4, 6, 8, 7, 0) 
+ h Solution Move Sequence
+ ['LEFT', 'UP', 'LEFT', 'DOWN', 'RIGHT', 'RIGHT', 'UP', 'LEFT', 'LEFT', 'DOWN', 'RIGHT', 'UP', 'UP', 'RIGHT', 'DOWN', 'DOWN'] 
+Solution State:  <Node (1, 2, 3, 4, 5, 6, 7, 8, 0)> 
+
+Start State:  (1, 5, 2, 3, 4, 6, 8, 7, 0) 
+ h2 Solution Move Sequence
+ ['LEFT', 'UP', 'LEFT', 'DOWN', 'RIGHT', 'RIGHT', 'UP', 'LEFT', 'LEFT', 'DOWN', 'RIGHT', 'UP', 'UP', 'RIGHT', 'DOWN', 'DOWN'] 
+Solution State:  <Node (1, 2, 3, 4, 5, 6, 7, 8, 0)> 
+
+
+
+
+Start State:  (1, 5, 2, 3, 4, 6, 8, 0, 7) 
+ h Solution Move Sequence
+ ['UP', 'LEFT', 'DOWN', 'RIGHT', 'RIGHT', 'UP', 'LEFT', 'LEFT', 'DOWN', 'RIGHT', 'UP', 'UP', 'RIGHT', 'DOWN', 'DOWN'] 
+Solution State:  <Node (1, 2, 3, 4, 5, 6, 7, 8, 0)> 
+
+Start State:  (1, 5, 2, 3, 4, 6, 8, 0, 7) 
+ h2 Solution Move Sequence
+ ['UP', 'LEFT', 'DOWN', 'RIGHT', 'RIGHT', 'UP', 'LEFT', 'LEFT', 'DOWN', 'RIGHT', 'UP', 'UP', 'RIGHT', 'DOWN', 'DOWN'] 
+Solution State:  <Node (1, 2, 3, 4, 5, 6, 7, 8, 0)> 
+
+
+
+
+Start State:  (0, 2, 4, 1, 6, 3, 8, 7, 5) 
+ h Solution Move Sequence
+ ['DOWN', 'DOWN', 'RIGHT', 'UP', 'LEFT', 'UP', 'RIGHT', 'RIGHT', 'DOWN', 'DOWN', 'LEFT', 'UP', 'UP', 'LEFT', 'DOWN', 'RIGHT', 'RIGHT', 'DOWN'] 
+Solution State:  <Node (1, 2, 3, 4, 5, 6, 7, 8, 0)> 
+
+Start State:  (0, 2, 4, 1, 6, 3, 8, 7, 5) 
+ h2 Solution Move Sequence
+ ['DOWN', 'DOWN', 'RIGHT', 'UP', 'LEFT', 'UP', 'RIGHT', 'RIGHT', 'DOWN', 'LEFT', 'UP', 'LEFT', 'DOWN', 'RIGHT', 'DOWN', 'RIGHT', 'UP', 'LEFT', 'DOWN', 'RIGHT'] 
+Solution State:  <Node (1, 2, 3, 4, 5, 6, 7, 8, 0)> 
+
+
+
+
+Start State:  (3, 8, 1, 2, 4, 6, 7, 0, 5) 
+ h Solution Move Sequence
+ ['UP', 'UP', 'RIGHT', 'DOWN', 'LEFT', 'UP', 'LEFT', 'DOWN', 'RIGHT', 'DOWN', 'RIGHT', 'UP', 'UP', 'LEFT', 'LEFT', 'DOWN', 'RIGHT', 'DOWN', 'RIGHT'] 
+Solution State:  <Node (1, 2, 3, 4, 5, 6, 7, 8, 0)> 
+
+Start State:  (3, 8, 1, 2, 4, 6, 7, 0, 5) 
+ h2 Solution Move Sequence
+ ['UP', 'UP', 'RIGHT', 'DOWN', 'LEFT', 'UP', 'LEFT', 'DOWN', 'RIGHT', 'DOWN', 'RIGHT', 'UP', 'UP', 'LEFT', 'LEFT', 'DOWN', 'RIGHT', 'DOWN', 'RIGHT'] 
+Solution State:  <Node (1, 2, 3, 4, 5, 6, 7, 8, 0)> 
+
+
+
+
+Start State:  (1, 6, 5, 8, 4, 0, 3, 2, 7) 
+ h Solution Move Sequence
+ ['DOWN', 'LEFT', 'UP', 'LEFT', 'DOWN', 'RIGHT', 'UP', 'RIGHT', 'DOWN', 'LEFT', 'UP', 'UP', 'RIGHT', 'DOWN', 'LEFT', 'LEFT', 'DOWN', 'RIGHT', 'RIGHT', 'UP', 'LEFT', 'UP', 'RIGHT', 'DOWN', 'DOWN'] 
+Solution State:  <Node (1, 2, 3, 4, 5, 6, 7, 8, 0)> 
+
+Start State:  (1, 6, 5, 8, 4, 0, 3, 2, 7) 
+ h2 Solution Move Sequence
+ ['DOWN', 'LEFT', 'UP', 'LEFT', 'DOWN', 'RIGHT', 'UP', 'RIGHT', 'DOWN', 'LEFT', 'UP', 'UP', 'RIGHT', 'DOWN', 'LEFT', 'LEFT', 'DOWN', 'RIGHT', 'RIGHT', 'UP', 'LEFT', 'UP', 'RIGHT', 'DOWN', 'DOWN'] 
+Solution State:  <Node (1, 2, 3, 4, 5, 6, 7, 8, 0)> 
+
+
+
+
+Start State:  (5, 0, 7, 6, 4, 2, 1, 8, 3) 
+ h Solution Move Sequence
+ ['RIGHT', 'DOWN', 'LEFT', 'LEFT', 'DOWN', 'RIGHT', 'UP', 'UP', 'LEFT', 'DOWN', 'RIGHT', 'RIGHT', 'DOWN', 'LEFT', 'LEFT', 'UP', 'RIGHT', 'UP', 'RIGHT', 'DOWN', 'DOWN'] 
+Solution State:  <Node (1, 2, 3, 4, 5, 6, 7, 8, 0)> 
+
+Start State:  (5, 0, 7, 6, 4, 2, 1, 8, 3) 
+ h2 Solution Move Sequence
+ ['RIGHT', 'DOWN', 'DOWN', 'LEFT', 'UP', 'UP', 'LEFT', 'DOWN', 'DOWN', 'RIGHT', 'UP', 'UP', 'LEFT', 'DOWN', 'DOWN', 'RIGHT', 'UP', 'UP', 'RIGHT', 'DOWN', 'LEFT', 'DOWN', 'RIGHT'] 
+Solution State:  <Node (1, 2, 3, 4, 5, 6, 7, 8, 0)> 
+
+
+
+
+Start State:  (2, 7, 6, 0, 5, 1, 4, 3, 8) 
+ h Solution Move Sequence
+ ['RIGHT', 'DOWN', 'LEFT', 'UP', 'UP', 'RIGHT', 'DOWN', 'RIGHT', 'UP', 'LEFT', 'DOWN', 'LEFT', 'UP', 'RIGHT', 'DOWN', 'DOWN', 'LEFT', 'UP', 'RIGHT', 'DOWN', 'RIGHT'] 
+Solution State:  <Node (1, 2, 3, 4, 5, 6, 7, 8, 0)> 
+
+Start State:  (2, 7, 6, 0, 5, 1, 4, 3, 8) 
+ h2 Solution Move Sequence
+ ['RIGHT', 'DOWN', 'LEFT', 'UP', 'UP', 'RIGHT', 'DOWN', 'RIGHT', 'UP', 'LEFT', 'DOWN', 'LEFT', 'UP', 'RIGHT', 'DOWN', 'DOWN', 'LEFT', 'UP', 'RIGHT', 'DOWN', 'RIGHT'] 
+Solution State:  <Node (1, 2, 3, 4, 5, 6, 7, 8, 0)> 
+
+
+
+
+Start State:  (4, 0, 2, 3, 5, 7, 8, 1, 6) 
+ h Solution Move Sequence
+ ['DOWN', 'RIGHT', 'UP', 'LEFT', 'LEFT', 'DOWN', 'RIGHT', 'DOWN', 'LEFT', 'UP', 'RIGHT', 'UP', 'LEFT', 'DOWN', 'RIGHT', 'RIGHT', 'UP', 'LEFT', 'DOWN', 'RIGHT', 'DOWN'] 
+Solution State:  <Node (1, 2, 3, 4, 5, 6, 7, 8, 0)> 
+
+Start State:  (4, 0, 2, 3, 5, 7, 8, 1, 6) 
+ h2 Solution Move Sequence
+ ['DOWN', 'RIGHT', 'UP', 'LEFT', 'LEFT', 'DOWN', 'RIGHT', 'DOWN', 'LEFT', 'UP', 'RIGHT', 'UP', 'LEFT', 'DOWN', 'RIGHT', 'RIGHT', 'UP', 'LEFT', 'DOWN', 'RIGHT', 'DOWN'] 
+Solution State:  <Node (1, 2, 3, 4, 5, 6, 7, 8, 0)> 
+
+
+
+
+Start State:  (2, 4, 0, 6, 8, 1, 7, 3, 5) 
+ h Solution Move Sequence
+ ['DOWN', 'LEFT', 'DOWN', 'RIGHT', 'UP', 'LEFT', 'LEFT', 'UP', 'RIGHT', 'RIGHT', 'DOWN', 'LEFT', 'LEFT', 'UP', 'RIGHT', 'DOWN', 'DOWN', 'RIGHT'] 
+Solution State:  <Node (1, 2, 3, 4, 5, 6, 7, 8, 0)> 
+
+Start State:  (2, 4, 0, 6, 8, 1, 7, 3, 5) 
+ h2 Solution Move Sequence
+ ['DOWN', 'LEFT', 'DOWN', 'RIGHT', 'UP', 'LEFT', 'LEFT', 'UP', 'RIGHT', 'RIGHT', 'DOWN', 'LEFT', 'LEFT', 'UP', 'RIGHT', 'DOWN', 'DOWN', 'RIGHT'] 
+Solution State:  <Node (1, 2, 3, 4, 5, 6, 7, 8, 0)> 
+
+
+
+
+Start State:  (6, 1, 8, 7, 5, 3, 2, 0, 4) 
+ h Solution Move Sequence
+ ['UP', 'RIGHT', 'UP', 'LEFT', 'LEFT', 'DOWN', 'DOWN', 'RIGHT', 'RIGHT', 'UP', 'LEFT', 'UP', 'RIGHT', 'DOWN', 'LEFT', 'LEFT', 'UP', 'RIGHT', 'DOWN', 'DOWN', 'LEFT', 'UP', 'RIGHT', 'DOWN', 'RIGHT'] 
+Solution State:  <Node (1, 2, 3, 4, 5, 6, 7, 8, 0)> 
+
+Start State:  (6, 1, 8, 7, 5, 3, 2, 0, 4) 
+ h2 Solution Move Sequence
+ ['UP', 'RIGHT', 'DOWN', 'LEFT', 'LEFT', 'UP', 'RIGHT', 'UP', 'LEFT', 'DOWN', 'RIGHT', 'RIGHT', 'UP', 'LEFT', 'LEFT', 'DOWN', 'RIGHT', 'DOWN', 'RIGHT', 'UP', 'UP', 'LEFT', 'DOWN', 'DOWN', 'RIGHT'] 
+Solution State:  <Node (1, 2, 3, 4, 5, 6, 7, 8, 0)> 
+
+
+
+
